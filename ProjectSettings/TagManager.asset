@@ -4,10 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Land
-  - zombie
+  - Enemy
   - plant
-  - bullet
   layers:
   - Default
   - TransparentFX
@@ -15,11 +13,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - GameObject
+  - GameUI
+  - GridCell
+  - Sunlight
   - 
   - 
   - 
@@ -45,24 +43,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Zombie
-    uniqueID: 1016522483
+  - name: Background
+    uniqueID: 1264189735
     locked: 0
-  - name: Plant
-    uniqueID: 1249370801
-    locked: 0
-  - name: Plant+
-    uniqueID: 2478584127
-    locked: 0
-  - name: Bullet
-    uniqueID: 151959225
+  - name: GameObject
+    uniqueID: 84725193
     locked: 0
   - name: UI
-    uniqueID: 1871630779
+    uniqueID: 1893249471
     locked: 0
-  - name: Sun
-    uniqueID: 1880328369
+  - name: Card
+    uniqueID: 1398536475
     locked: 0
-  - name: Prefab
-    uniqueID: 3157148411
+  - name: didntPlanted
+    uniqueID: 3039700785
+    locked: 0
+  - name: Sunlight
+    uniqueID: 1118617413
     locked: 0
